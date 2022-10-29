@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML input test</title>
+  </head>
+  <body>
+    <h4>Leave your contact here</h4>
+    <form class="" action="mailto:piyapatverse@gmail.com" method="post" target="_blank" autocomplete="on" enctype="text/plain">
+      <select class="" name="gender">
+        <option value="mr">Mr.</option>
+        <option value="mrs">Mrs.</option>
+        <option value="miss">Miss</option>
+      </select>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" value="first name" required>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" value="last name"><br>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" value="">
+      <input type="submit" name="" value="click here to submit">
+      <input type="reset" name="" value="RESET">
+      <br><br>
+    </form>
+    <form class="" action="index.html" method="post" target="_blank" autocomplete="on">
+      <fieldset>
+        <legend>Another Way to Collect Personal Data</legend>
+        <select class="" name="gender">
+          <option value="mr">Mr.</option>
+          <option value="mrs">Mrs.</option>
+          <option value="miss">Miss</option>
+        </select>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" value="first name">
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" value="last name"><br><br>
+        <input type="submit" name="" value="click here to submit">
+      </fieldset>
+    </form>
+    <h4>What is your favorite web language ?</h4>
+    <form class="" action="index.html" method="post">
+      <input type="radio" name="fav_language" value="html">
+      <label for="html">html</label><br>
+      <input type="radio" name="fav_language" value="css">
+      <label for="css">css</label><br>
+      <input type="radio" name="fav_language" value="js">
+      <label for="js">js</label><br>
+      <input type="submit" name="" value="submit">
+    </form>
+    <h4>What is your favorite car?</h4>
+    <form class="" action="index.html" method="post">
+      <input type="checkbox" name="vehicle1" value="BMW">
+      <label for="vehicle1">I like BMW</label><br>
+      <input type="checkbox" name="vehicle2" value="BENZ">
+      <label for="vehicle2">I like BENZ</label><br>
+      <input type="checkbox" name="vehicle3" value="volvo">
+      <label for="vehicle3">I like volvo</label><br>
+      <input type="submit" name="" value="submit here">
+      <input type="button" name="" value="button here">
+      <button type="button" name="button">click here</button>
+    </form>
+    <h4>Tell me how do you feel about this channel</h4>
+    <form class="" action="index.html" method="post">
+      <textarea name="message" rows="5" cols="20"></textarea><br>
+      <input type="submit" name="submit" value="submit here">
+    </form>
+    <h4>Real button</h4>
+    <form class="" action="index.html" method="post">
+      <button type="button" name="sayhello" onclick="alert('Hello World!')">click me to say hello</button><br><br>
+    </form>
+    <h4>Choose your browser</h4>
+    <form class="" action="index.html" method="post">
+      <input list="browsers" name="borwser" value="">
+      <datalist id="browsers" >
+        <option value="safari">Safari</option>
+        <option value="IE">Internet Explorer</option>
+        <option value="chrome">Chrome</option>
+        <option value="firefox">Firefox</option>
+      </datalist>
+      <input type="submit" name="submit" value="submit">
+    </form>
+    <h4>Lets join us</h4>
+    <p>Create your username and password</p>
+    <form class="" action="index.html" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" value="">
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="pwd" value="" maxlength="6" size="6">
+      <input type="submit" name="submit" value="submit">
+    </form>
+    <h4>What is your favorite color?</h4>
+    <form class="" action="index.html" method="post">
+      <label for="favcolor">Choose your favorite color</label>
+      <input type="color" name="favcolor" value="">
+      <input type="submit" name="" value="submit">
+      <br><br>
+    </form>
+    <h4>When is your birthday?</h4>
+    <form class="" action="index.html" method="post">
+      <label for="birthdate">birthdate</label>
+      <input type="date" name="birthdate" value="birthdate">
+      <input type="submit" name="submit" value="submit">
+      <br><br>
+      <label for="birthdaytime">Lets get deeper to birthday time</label>
+      <input type="datetime-local" name="birthdaytime" value="birthdaytime">
+      <input type="submit" name="submit" value="submit">
+      <br><br>
+    </form>
+    <h4>Vote this content</h4>
+    <form class="" action="index.html" method="post">
+      <label for="vote">How much do you love this content</label><br>
+      <label for="Vote">😩</label>
+      <input type="range" name="vote" value="5" min="0" max="10">
+      <label for="vote">🤩</label>
+      <input type="submit" name="submit" value="submit"><br>
+    </form>
+    <h4>Upload your photo</h4>
+    <form class="" action="index.html" method="post">
+      <label for="myfile">select a file:</label>
+      <input type="file" name="myfile" value="myfile">
+      <input type="submit" name="submit" value="submit"><br>
+    </form>
+    <br>
+    <hr>
+    <p><em><a href="index.html">back to index</a></em></p>
+  </body>
+</html>
